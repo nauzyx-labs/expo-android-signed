@@ -1,5 +1,5 @@
 {
-  "name": "expo-android-signed",
+  "name": "@nauzyx-labs/expo-android-signed",
   "version": "1.0.0",
   "description": "An Expo Config Plugin to persist Android signing configurations in build.gradle across prebuilds.",
   "main": "index.js",
