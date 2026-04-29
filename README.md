@@ -5,7 +5,7 @@ An Expo Config Plugin to persist Android release signing configurations in `buil
 ## Installation
 
 ```bash
-pnpm add expo-android-signed
+pnpm add @nauzyx-labs/expo-android-signed
 ```
 
 ## Usage
@@ -15,9 +15,7 @@ Add the plugin to your `app.json` or `app.config.js`:
 ```json
 {
   "expo": {
-    "plugins": [
-      "expo-android-signed"
-    ]
+    "plugins": ["expo-android-signed"]
   }
 }
 ```
@@ -50,6 +48,7 @@ You can also pass options directly in `app.json` (though environment variables a
 ## How it works
 
 When you run `npx expo prebuild`, this plugin automatically patches `android/app/build.gradle` to:
+
 1. Add a `release` signing config.
 2. Link the `release` build type to the `release` signing config.
 3. Ensure the `debug` build type remains on the `debug` signing config.
