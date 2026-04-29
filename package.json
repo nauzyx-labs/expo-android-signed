@@ -19,6 +19,14 @@
   ],
   "author": "Jody Yuantoro",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nauzyx-labs/expo-android-signed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nauzyx-labs/expo-android-signed/issues"
+  },
+  "homepage": "https://github.com/nauzyx-labs/expo-android-signed#readme",
   "peerDependencies": {
     "@expo/config-plugins": ">=55.0.0"
   }
